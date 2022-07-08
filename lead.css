@@ -1,0 +1,114 @@
+body{
+    width: 428px;
+  height: 926px;
+  padding: 0 0 368px;
+  background-color: #1c1c1e;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: #fff;
+  
+}
+
+ input{
+  color: #fff;
+} 
+
+
+ 
+
+
+.logo{
+margin-top: 135;
+}
+
+ .title{
+   background-color: #1c1c1e; 
+} 
+
+.login_title{
+    width: 130px;
+    height: 28px;
+    margin: 354px 46px 18px 148px;
+    font-family: SFPro;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.username{
+    width: 130px;
+  height: 28px;
+   margin: 18px 19.2px 0 18.8px;  
+  padding: 0 3px 0 16px;
+  background-color: #000;
+  border: none;
+   /* display: flex;  */
+}
+
+.password{
+    width: 130px;
+  height: 25px;
+  margin: 62px 19.2px 0 18.8px;
+  padding: 0 0 11px;
+  background-color: #000;
+  border: none;
+  display: flex; 
+}
+
+label{
+    width: 87px;
+  height: 22px;
+  margin: 10px 13px 0 16px;
+}
+
+.signUP{
+  color: rgb(0, 122, 255);
+  width: 165px;
+  height: 44px;
+  padding: 11px 0px 11px 0px;
+  border-radius: 8px;
+  border: none; 
+  background-color: #1c1c1e;
+}
+.signUP:hover{
+  color: #fff;
+  background-image: linear-gradient(rgb(0, 117, 212), rgb(0, 122, 255)); 
+}
+
+.signUP:active{
+  background-image: linear-gradient(rgb(0, 122, 255), rgb(0, 117, 212)); 
+}
+
+.signIN{
+  color: #fff;
+  width: 84px;
+  height: 50px;
+  margin: 19px 19px 0 46px;
+  padding: 3px 16px 3px 17px;
+  border-radius: 8px;
+  background-image: linear-gradient(rgb(0, 117, 212), rgb(0, 122, 255));
+  border: none;
+}
+.signIN:hover{
+  background: rgb(28, 28, 30);
+  color: rgb(0, 122, 255);
+}
+.signIN:active{
+  color: #fff;
+}
+
+

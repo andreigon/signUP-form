@@ -12,14 +12,15 @@
         <div class="container">
           <div class="logo">
             <!-- place for SVG -->
-            <div class="login"><h1 class="login_title">Авторизация</h1>
-
-            <label class="title">Логин <input class="username" required v-model="username" type="text" 
-            placeholder="devleader.pro@gmail.com"> </label>
-        </input><button type="reset">X</button>
-            
-            <label class="title">Пароль<input class="password" required v-model="password" type="password"
-             placeholder="Aa12345678@"> </input></label>
+            <div class="head_title"><h1>Авторизация</h1></div>
+              <div class="login">
+                <label class="login_title">Логин</label> <input class="username" required v-model="username" type="text" 
+                placeholder="devleader.pro@gmail.com" >  </input> <button class="reset">X</button>
+              </div>
+              <div class="pass">
+               <label class="pass_title">Пароль<input class="password" required v-model="password" type="password"
+               placeholder="Aa12345678@"> </input></label>
+              </div>
             <button class="signUP" type="button">Зарегистрироваться</button>
             <button class="signIN" type="submit">Войти</button>
            </div> 

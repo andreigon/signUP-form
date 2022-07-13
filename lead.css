@@ -1,7 +1,7 @@
 body{
-    width: 428px;
+     width: 428px;
   height: 926px;
-  padding: 0 0 368px;
+  padding: 0 0 368px; 
   background-color: #1c1c1e;
   font-size: 17px;
   font-weight: normal;
@@ -31,11 +31,18 @@ body{
 margin-top: 135;
 }
 
- .title{
+ .login_title{
+    /* float: left; */
+    /* justify-content: space-between; */
    background-color: #1c1c1e; 
 } 
 
-.login_title{
+/* .pass_title{
+   justify-content: space-between; 
+   display: inline-table; 
+} */
+
+.head_title{
     width: 130px;
     height: 28px;
     margin: 354px 46px 18px 148px;
@@ -56,7 +63,7 @@ margin-top: 135;
   padding: 0 3px 0 16px;
   background-color: #000;
   border: none;
-   /* display: flex;  */
+    /* display: inline-flexbox  */
 }
 
 .password{
@@ -66,14 +73,14 @@ margin-top: 135;
   padding: 0 0 11px;
   background-color: #000;
   border: none;
-  display: flex; 
+  /* display: inline-flexbox;  */
 }
 
-label{
+/* label{
     width: 87px;
   height: 22px;
   margin: 10px 13px 0 16px;
-}
+} */
 
 .signUP{
   color: rgb(0, 122, 255);

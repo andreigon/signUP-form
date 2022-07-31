@@ -79,30 +79,35 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   margin: 10% auto 5% auto;
 }
 .login {
-
+  position: relative;
   background-color: black;
-  width: 98%;
-  height: 20px;
+  width: 100%;
+  height: 22px;
   margin: 0 auto;
-  /* padding: auto auto; */
+  padding: auto auto; 
 }
- .login_title {
-  margin: auto auto auto 2%;
+ .string_title{
+  margin: auto auto auto 2%; 
 }
 .username {
-  position: relative;
+  height: auto;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: none;
   background-color: black;
   color: #fff;
-  padding: auto auto;
-  margin: auto;
-  /* align-items: center; */
-  /* text-align: center; */
+   padding: 10px auto; 
+   align-items: center; 
+   text-align: center; 
 }
 .reset {
-  position: relative;
-    margin: auto;
-  padding: auto;
+   position: initial; 
+    margin-block-end: 2px;
+    display: flexbox; 
+ 
   width: 20px;
   height: 20px;
    letter-spacing: normal; 
@@ -110,98 +115,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   border: none;
   border-radius: 50%;
 }
-/*.pass {
-}
-.pass_title {
-}
-.password {
-}
-.signUP {
-}
-.signIN {
-} */
 
+.hr{
+  height: 3px;
+  width: auto;
+  color: #1c1c1e;
+  margin: 0;
+  padding: 0 20px;
+  border: none;
+}
 
-/* input{
-  color: #fff;
-} 
-
-
- .login{
-  width: 390px;
-  height: 44px;
+.buttons{
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto; 
-  padding: 0 auto;
- }
-
-
-.logo{
-margin-top: 135;
+  margin: 20px;
+  gap: 20px; 
 }
-
- .login_title{
-  display: block;
-   background: rgb(163, 14, 101); 
-   background-position: center;
-   background-size: 28px;
-   height: 28px;
-} 
-
- .pass_title{
-  display: block;
-   background: rgb(223, 11, 11);
-   background-position: center;
-} 
-
-.h1{
-  width: 131px;
-    height: 28px;
-     margin-top: 354px;
-     padding-top: 354px;
-  }
-
-.head_title{
-  border: none;
-    display: block;
-    width: 131px;
-    height: 28px;
-    padding: auto; 
-     margin-top: auto;
-    font-family: SFPro;
-    font-size: 22px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.27;
-    letter-spacing: normal;
-    color: #fff;
-}
-
-.username{
-  padding: 0 10px;
-  margin: 0 0 0 ;
-  align-items: center;
-  justify-content: center;
-    width: 200px;
-  height: 30px;
-  background-color: rgb(19, 185, 41);
-  border: none;
- 
-}
-
-.password{
-  justify-content: center;
-  align-items: center;
-    width: 130px;
-  height: 30px;
-
-  padding: 0 0 11px;
-  background-color: rgb(63, 29, 253);
-  border: none;
-
-} */
 
 .signUP{
   color: rgb(0, 122, 255);
@@ -211,7 +141,8 @@ margin-top: 135;
   border-radius: 8px;
   border: none; 
   background-color: #1c1c1e;
-}
+  }
+
 .signUP:hover{
   color: #fff;
   background-image: linear-gradient(rgb(0, 117, 212), rgb(0, 122, 255)); 
@@ -225,7 +156,7 @@ margin-top: 135;
   color: #fff;
   width: 84px;
   height: 50px;
-  padding: 3px 16px 3px 17px;
+  padding:auto;
   border-radius: 8px;
   background-image: linear-gradient(rgb(0, 117, 212), rgb(0, 122, 255));
   border: none;
@@ -238,7 +169,7 @@ margin-top: 135;
   color: #fff;
 }
 
-#reset{
+/* #reset{
   margin: 0px;
   padding: 0px;
   width: 20px;
@@ -258,5 +189,5 @@ margin-top: 135;
 
 #reset:active{
   background-color: #1c1c1e;
-} 
+}  */
 

@@ -11,18 +11,22 @@
     <div id="app">
         <div class="container">
           <div class="logo">
-            <img src="logo.svg.svg"></div>
+            <img src="logo.svg.svg"> 
+          </div>
             <div class="head_title"><h1>Авторизация</h1></div>
               <div class="login">
-                <label class="login_title">Логин <input class="username" required v-model="username" type="text" 
-                placeholder="devleader.pro@gmail.com" >  </input> <button class="reset">X</button></label>
+                <label class="string_title">Логин <input class="username" required v-model="username" type="text" 
+                 placeholder="devleader.pro@gmail.com" >  <!-- <button class="reset">X</button> --> </input></label> 
               </div>
-              <div class="pass">
-               <label class="pass_title">Пароль<input class="password" required v-model="password" type="password"
+              <hr class="hr">
+              <div class="login">
+               <label class="string_title">Пароль<input class="username" required v-model="password" type="password"
                placeholder="Aa12345678@"> </input></label>
               </div>
-            <button class="signUP" type="button">Зарегистрироваться</button>
-            <button class="signIN" type="submit">Войти</button>
+              <div class="buttons">
+                <button class="signUP" type="button">Зарегистрироваться</button>
+                <button class="signIN" type="submit">Войти</button>
+              </div>
            </div> 
         </div>
       </div>
